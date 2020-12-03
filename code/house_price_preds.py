@@ -21,7 +21,7 @@ train_data = pd.read_csv('C:/Users/Desktop/1.house-prices-advanced-regression-te
 col_1 = train_data["SalePrice"]  
 target = np.array(col_1)
 print("train_SalePrice",target)
-#target=pd.read_csv('C:/Users/黄月浩/Desktop/train_2.csv')  #销售价格
+#target=pd.read_csv('C:/Users/Desktop/train_2.csv')  #销售价格
 t=pd.read_csv('C:/Users/Desktop/test_2.csv')         #测试数据
 
 #数据预处理
